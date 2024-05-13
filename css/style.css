@@ -1,0 +1,75 @@
+/* Initial DOM CSS */
+body{
+    background-color: #1B262C;
+}
+
+.initialInfo {
+    text-align: center;
+}
+
+h1 {
+    font-family : 'Fascinate', cursive; /* Google Font */
+    margin-top  : 10vh;
+    color       : #BBE1FA;
+}
+
+/* Bootstrap Card CSS */
+.card {
+    background-color: #3282B8;
+    color           : #BBE1FA;
+}
+
+.card-header {
+    background-color: #0F4C75 !important;
+    text-align      : center;
+    font-size       : larger;
+    font-weight     : bold;
+}
+
+.card-img-top {
+    display     : flex;
+    align-items : center;
+    padding     : 5%;
+    height      : 40vh;
+}
+
+.card-text {
+    text-align  : center;
+    font-weight : 500;
+}
+
+.text-center {
+    margin-bottom: 2vh;
+}
+
+button{
+    background-color: #0F4C75 !important;
+    color           : white !important;
+}
+
+.weather {
+    color: white;
+}
+
+/* Loader CSS */
+#loaderContainter {
+    position: relative;
+    height  : 100%;
+    width   : 100%;
+}
+
+.loader {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: 20vh;
+}
+
+@media screen and (min-width: 768px) and (min-height: 1024px) {
+    .card-img-top {
+        height  : 20vh;
+    }
+}
